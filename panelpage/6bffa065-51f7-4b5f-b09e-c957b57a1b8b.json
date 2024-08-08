@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "form",
+	"displayType": "page",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -32,6 +32,10 @@
 					"label": "Test",
 					"locked": false,
 					"name": "test",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
@@ -40,6 +44,48 @@
 							"name": "value",
 							"type": 1,
 							"value": "whatever"
+						},
+						{
+							"attributes": [
+								{
+									"attributes": [],
+									"computedValue": "pane",
+									"displayName": "type",
+									"name": "type",
+									"type": 1,
+									"value": "pane"
+								},
+								{
+									"attributes": [],
+									"computedValue": "",
+									"displayName": "id",
+									"name": "id",
+									"type": 1,
+									"value": ""
+								}
+							],
+							"computedValue": null,
+							"displayName": "datasourceBinding",
+							"name": "datasourceBinding",
+							"type": 2,
+							"value": null
+						}
+					]
+				},
+				{
+					"contentPlugin": "form_slider",
+					"contexts": [],
+					"label": "Test2",
+					"locked": false,
+					"name": "test2",
+					"settings": [
+						{
+							"attributes": [],
+							"computedValue": "test2",
+							"displayName": "value",
+							"name": "value",
+							"type": 1,
+							"value": "test2"
 						},
 						{
 							"attributes": [
