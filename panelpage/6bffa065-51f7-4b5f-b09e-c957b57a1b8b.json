@@ -1,6 +1,6 @@
 {
 	"contexts": [],
-	"displayType": "page",
+	"displayType": "form",
 	"entityPermissions": {
 		"deleteUserIds": [],
 		"readUserIds": [
@@ -78,6 +78,10 @@
 					"label": "Test2",
 					"locked": false,
 					"name": "test2",
+					"rule": {
+						"condition": "",
+						"rules": []
+					},
 					"settings": [
 						{
 							"attributes": [],
